@@ -291,5 +291,3 @@ if args.create_vpc_with_subnets:
 if args.vpc_id and args.subnet_id:
   create_ec2_with_VPC(args.vpc_id, args.subnet_id)
   
-  
-  
